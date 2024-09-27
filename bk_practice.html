@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      p {
+        margin: 0;
+        font-family: "Roboto", sans-serif;
+      }
+      .big_image {
+        position: relative;
+        display: inline-block;
+      }
+      .bg_img {
+        height: 100%;
+        width: 100%;
+      }
+      .topNums {
+        position: absolute;
+        left: 60px;
+        top: 40px;
+        display: flex;
+        flex-direction: row;
+      }
+      .numbers {
+        font-size: 40px;
+        font-family: "Roboto", sans-serif;
+        margin-right: 100px;
+      }
+      .thumbnails {
+        position: absolute;
+        top: 300px;
+        left: 60px;
+        display: flex;
+        flex-direction: row;
+      }
+      .thumbnails_bg {
+        background-color: rgba(128, 128, 128, 0.5);
+        width: 56px;
+        height: 56px;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center; /* Centers horizontally */
+        align-items: center; /* Centers vertically */
+        padding: 2px;
+        margin-right: 10px;
+      }
+
+      .imgs {
+        width: 35px;
+        height: 40px;
+      }
+
+      .thumbnails_bg:hover {
+        background-color: rgba(128, 128, 128, 0.84);
+      }
+      .Under_text {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top: 355px;
+        left: 54px;
+        width: 600px;
+        height: 30px;
+      }
+      .Text {
+        font-size: 12px;
+        font-weight: 600;
+        color: white;
+      }
+      .text_div {
+        width: 71px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .search_bar {
+        position: absolute;
+        top: 600px;
+        left: 470px;
+        width: 500px;
+        height: 45px;
+        border-radius: 15px;
+        background-color: rgb(117, 96, 79, 0.8);
+        border-style: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+      .bar {
+        width: 350px;
+        background-color: transparent;
+        border-style: none;
+        height: 30px;
+      }
+      ::placeholder {
+        color: rgb(181, 179, 179);
+        font-size: 18px;
+      }
+      .brave_icon {
+        width: 20px;
+      }
+      .search-icon {
+        width: 30px;
+      }
+      .screenrant {
+        position: absolute;
+        top: 650px;
+        left: 470px;
+        width: 500px;
+        height: 100px;
+        border-radius: 15px;
+        background-color: rgb(117, 96, 79, 0.8);
+        border-style: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+      }
+      .image {
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        padding: 10px;
+      }
+      .spider {
+        width: 150px;
+        border-radius: 15px;
+      }
+      .first-text {
+        color: rgb(201, 194, 194);
+        font-size: 12px;
+      }
+      .sec-text {
+        color: white;
+        font-size: 16px;
+      }
+      .movies {
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="big_image">
+      <img src="wallpaperflare.com_wallpaper.jpg" class="bg_img" />\
+      <div class="topNums">
+        <div style="display: flex; flex-direction: column">
+          <div class="numbers" style="color: #fb542b">40,979</div>
+          <p style="color: white; font-size: large">Trackers & ads blocked</p>
+        </div>
+        <div class="numbers" style="color: #a0a5eb">
+          975.7 <samp style="font-size: 30px">MB</samp>
+          <p style="color: white; font-size: large">Bandwidth saved</p>
+        </div>
+        <div class="numbers" style="color: #ffffff">
+          35<samp style="font-size: 30px">minutes</samp>
+          <p style="color: white; font-size: large">Time saved</p>
+        </div>
+      </div>
+
+      <div class="thumbnails">
+        <div class="thumbnails_bg">
+          <img src="download.png" class="imgs" />
+        </div>
+        <div class="Text"></div>
+
+        <div class="thumbnails_bg">
+          <img src="219432.png" class="imgs" />
+        </div>
+
+        <div class="thumbnails_bg">
+          <img src="download3.png" class="imgs" />
+        </div>
+        <div class="thumbnails_bg">
+          <img src="download2.png" class="imgs" />
+        </div>
+        <div class="thumbnails_bg">
+          <img src="download1.png" class="imgs" />
+        </div>
+      </div>
+      <div class="Under_text">
+        <div class="text_div">
+          <p class="Text">Pinterest</p>
+        </div>
+        <div class="text_div">
+          <p class="Text">Codefor..</p>
+        </div>
+        <div class="text_div">
+          <p class="Text">Facebook</p>
+        </div>
+        <div class="text_div">
+          <p class="Text">ChatGPT</p>
+        </div>
+        <div class="text_div">
+          <p class="Text">Youtube</p>
+        </div>
+      </div>
+
+      <div class="search_bar">
+        <img src="Brave_icon_lionface.png" class="brave_icon" />
+        <input type="text" class="bar" placeholder="Search the web privately" />
+        <img class="search-icon" src="whiteicon.png" />
+      </div>
+
+      <div class="screenrant">
+        <div class="movies">
+          <p class="first-text">
+            Screenrant &#x2022; Film and TV &#x2022; 3 hours ago
+          </p>
+          <p class="sec-text">
+            Spider-Man is a superhero movie about a tean who becomes a hero
+            after being bitten by a redioactive spider
+          </p>
+        </div>
+        <div class="image">
+          <img src="spiderman.jpg" class="spider" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
